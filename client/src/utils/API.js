@@ -6,7 +6,7 @@ export default {
   // Gets something
 
   getSomething: function(query) {
-    return axios.get("/api/something", { params: { q: "Thing looking for" } });
+    return axios.get("/api/something", { params: { query: "Thing looking for" } });
   },
 
   // Saves data to the database
