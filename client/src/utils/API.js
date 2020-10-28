@@ -5,8 +5,8 @@ import axios from "axios";
 export default {
   // Gets something
 
-  getSomething: function(q) {
-    return axios.get("/api/something", { params: { q: "title:" + q } });
+  getSomething: function(query) {
+    return axios.get("/api/something", { params: { q: "Thing looking for" } });
   },
 
   // Saves data to the database
